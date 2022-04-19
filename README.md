@@ -1,6 +1,6 @@
 # How to set up a data catalog using python and dbt
 
-## install postgresql 
+## Install postgresql 
 Follow the instructions on https://www.postgresqltutorial.com/postgresql-getting-started/ to get the sample database into the postgresql db.
 
 ## Install dbt
