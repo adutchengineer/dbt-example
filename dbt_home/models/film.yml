@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: film
+    meta:
+      owner: "@Sarah"
+      model_maturity: in dev
+    description: ""
+    columns:
+      - name: film_id
+        description: "The primary key for this table"
+        tests:
+            - unique
+            - not_null
+
+      - name: title
+        description: ""
+
+      - name: description
+        description: ""
+
+      - name: release_year
+        description: ""
+
+      - name: language_id
+        description: ""
+
+      - name: rental_duration
+        description: ""
+
+      - name: rental_rate
+        description: ""
+
+      - name: length
+        description: ""
+
+      - name: replacement_cost
+        description: ""
+
+      - name: rating
+        description: ""
+
+      - name: last_update
+        description: ""
+
+      - name: special_features
+        description: ""
+
+      - name: fulltext
+        description: ""

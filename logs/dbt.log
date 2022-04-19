@@ -1,0 +1,14 @@
+
+
+============================== 2022-04-19 00:43:30.600286 | 876eb1e0-fb57-4100-a88f-feaa610b5921 ==============================
+00:43:30.600286 [info ] [MainThread]: Running with dbt=1.0.1
+00:43:30.600675 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/silvergenova/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+00:43:30.600868 [debug] [MainThread]: Tracking: do not track
+00:45:03.652715 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.9/site-packages/dbt/include/starter_project
+
+
+============================== 2022-04-19 00:46:48.323465 | 68d79bb9-c3fe-4d15-9023-fd067ceba4d4 ==============================
+00:46:48.323465 [info ] [MainThread]: Running with dbt=1.0.1
+00:46:48.323819 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/silvergenova/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+00:46:48.323970 [debug] [MainThread]: Tracking: do not track
+00:46:51.596152 [info ] [MainThread]: A project called dbt-home already exists here.

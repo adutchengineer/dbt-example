@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: actor
+    meta:
+      owner: "@Sarah"
+      model_maturity: in dev
+    description: "A list of actors"
+    columns:
+      - name: actor_id
+        description: "The primary key for this table"
+        tests:
+            - unique
+            - not_null
+
+      - name: first_name
+        description: "Actor's first name"
+
+      - name: last_name
+        description: "Actor's last name"
+
+      - name: last_update
+        description: "The last time the actor's name was updated"

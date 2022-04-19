@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dvdrental
+    schema: public
+    tables:
+      - name: actor
+        meta:
+          contains_pii: true
+      - name: film
+      - name: film_actor

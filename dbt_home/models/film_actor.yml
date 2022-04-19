@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: film_actor
+    description: ""
+    columns:
+      - name: actor_id
+        description: "Id found in actor table"
+        tests:
+          - relationships:
+              to: ref('actor')
+              field: actor_id
+        
+
+      - name: film_id
+        description: "Id found in film table"
+        tests:
+          - relationships:
+              to: ref('film')
+              field: film_id
+
+      - name: last_update
