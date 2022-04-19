@@ -15,22 +15,25 @@ dbt deps
 ```
 , downloading the dbt-codegen package. 
 
+To get the source and tables in schema "public"
 ```
 dbt run-operation generate_source --args '{"schema_name": "public", "database_name": "dvdrental"}'
 ```
-
+To get the sql code for the actor table "actor"
 ```
 dbt run-operation generate_base_model --args '{"source_name": "dvdrental", "table_name": "actor"}'
 ```
-
+To get the YAML code for the actor table "actor"
 ```
 dbt run-operation generate_model_yaml --args '{"model_name": "actor"}'
 ```
 
+To generate the files for the data catalog
 ```
 dbt docs generate
 ```
 
+To serve the data catalog
 ```
 dbt docs serve
 ```
